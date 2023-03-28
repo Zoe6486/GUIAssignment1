@@ -22,9 +22,5 @@ namespace Assignment1_Checkpoint1
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
