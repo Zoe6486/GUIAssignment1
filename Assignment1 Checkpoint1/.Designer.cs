@@ -202,7 +202,7 @@
             this.txtArenaName.Location = new System.Drawing.Point(792, 179);
             this.txtArenaName.Multiline = true;
             this.txtArenaName.Name = "txtArenaName";
-            this.txtArenaName.Size = new System.Drawing.Size(173, 39);
+            this.txtArenaName.Size = new System.Drawing.Size(257, 39);
             this.txtArenaName.TabIndex = 14;
             // 
             // txtStreetAddress
@@ -214,7 +214,7 @@
             this.txtStreetAddress.Location = new System.Drawing.Point(792, 269);
             this.txtStreetAddress.Multiline = true;
             this.txtStreetAddress.Name = "txtStreetAddress";
-            this.txtStreetAddress.Size = new System.Drawing.Size(173, 39);
+            this.txtStreetAddress.Size = new System.Drawing.Size(386, 39);
             this.txtStreetAddress.TabIndex = 15;
             // 
             // txtSuburb
@@ -226,7 +226,7 @@
             this.txtSuburb.Location = new System.Drawing.Point(792, 356);
             this.txtSuburb.Multiline = true;
             this.txtSuburb.Name = "txtSuburb";
-            this.txtSuburb.Size = new System.Drawing.Size(173, 39);
+            this.txtSuburb.Size = new System.Drawing.Size(257, 39);
             this.txtSuburb.TabIndex = 16;
             // 
             // txtCity
@@ -238,7 +238,7 @@
             this.txtCity.Location = new System.Drawing.Point(792, 438);
             this.txtCity.Multiline = true;
             this.txtCity.Name = "txtCity";
-            this.txtCity.Size = new System.Drawing.Size(173, 39);
+            this.txtCity.Size = new System.Drawing.Size(257, 39);
             this.txtCity.TabIndex = 17;
             // 
             // txtPhoneNumber
@@ -250,7 +250,7 @@
             this.txtPhoneNumber.Location = new System.Drawing.Point(792, 528);
             this.txtPhoneNumber.Multiline = true;
             this.txtPhoneNumber.Name = "txtPhoneNumber";
-            this.txtPhoneNumber.Size = new System.Drawing.Size(173, 39);
+            this.txtPhoneNumber.Size = new System.Drawing.Size(257, 39);
             this.txtPhoneNumber.TabIndex = 18;
             // 
             // ArenaForm

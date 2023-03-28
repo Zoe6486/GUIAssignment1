@@ -29,15 +29,15 @@ namespace Assignment1_Checkpoint1
             InitializeComponent();
             dsNZST.EnforceConstraints = false;
             daArena.Fill(dsNZST);
-  /*          daChallenge.Fill(dsNZST);
+            daChallenge.Fill(dsNZST);
             daCompetitor.Fill(dsNZST);
             daEvent.Fill(dsNZST);
-            daEntry.Fill(dsNZST);*/
+            daEntry.Fill(dsNZST);
             dtArena = dsNZST.Tables["Arena"];
-           /* dtChallenge = dsNZST.Tables["Challenge"];
+            dtChallenge = dsNZST.Tables["Challenge"];
             dtCompetitor = dsNZST.Tables["Competitor"];
             dtEvent = dsNZST.Tables["Event"];
-            dtEntry = dsNZST.Tables["Entry"];*/
+            dtEntry = dsNZST.Tables["Entry"];
             dsNZST.EnforceConstraints = true;
 
             arenaView = new DataView(dtArena);
