@@ -65,9 +65,29 @@ namespace Assignment1_Checkpoint1
             Close();
         }
 
+        private void btnAddArena_Click(object sender, EventArgs e)
+        {
+            txtArenaID.Text = null;
+            DataRow newArenaRow = DM.dtArena.NewRow();
 
+            if ((txtArenaID.Text == "") || (txtArenaName.Text == "") || (txtStreetAddress.Text == "") || (txtCity.Text == "") || (txtPhoneNumber.Text == "") || (txtSuburb.Text == ""))
+            {
+                MessageBox.Show("You must type in a Arena name, street address and phone number", "Error");
+            }
+            else
+            {
+                newArenaRow["Arena ID"] = Convert.ToDouble(txtArenaID.Text);
+                newArenaRow["Arena Name"] = txtArenaName.Text;
+                newArenaRow["StreetAddress"] = txtStreetAddress.Text;
+                newArenaRow["Suburb"] = txtSuburb.Text;
+                newArenaRow["City"] = txtCity.Text;
+                newArenaRow["Phone Number"] = txtPhoneNumber.Text;
+                DM.dtArena.Rows.Add(newArenaRow);
+                MessageBox.Show("Arena added successfully", "Success");
+                DM.UpdateArena();
+            }
+        }
 
-
-
+        
     }
 }

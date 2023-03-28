@@ -61,7 +61,7 @@
             // btnPrevious
             // 
             this.btnPrevious.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPrevious.Location = new System.Drawing.Point(61, 640);
+            this.btnPrevious.Location = new System.Drawing.Point(69, 623);
             this.btnPrevious.Name = "btnPrevious";
             this.btnPrevious.Size = new System.Drawing.Size(203, 64);
             this.btnPrevious.TabIndex = 1;
@@ -72,7 +72,7 @@
             // btnNext
             // 
             this.btnNext.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNext.Location = new System.Drawing.Point(295, 640);
+            this.btnNext.Location = new System.Drawing.Point(302, 623);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(203, 64);
             this.btnNext.TabIndex = 2;
@@ -83,17 +83,18 @@
             // btnAddArena
             // 
             this.btnAddArena.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddArena.Location = new System.Drawing.Point(538, 640);
+            this.btnAddArena.Location = new System.Drawing.Point(552, 623);
             this.btnAddArena.Name = "btnAddArena";
             this.btnAddArena.Size = new System.Drawing.Size(203, 64);
             this.btnAddArena.TabIndex = 3;
             this.btnAddArena.Text = "Add Arena";
             this.btnAddArena.UseVisualStyleBackColor = true;
+            this.btnAddArena.Click += new System.EventHandler(this.btnAddArena_Click);
             // 
             // btnUpdateArena
             // 
             this.btnUpdateArena.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdateArena.Location = new System.Drawing.Point(784, 640);
+            this.btnUpdateArena.Location = new System.Drawing.Point(792, 626);
             this.btnUpdateArena.Name = "btnUpdateArena";
             this.btnUpdateArena.Size = new System.Drawing.Size(203, 64);
             this.btnUpdateArena.TabIndex = 4;
@@ -103,7 +104,7 @@
             // btnDeleteArena
             // 
             this.btnDeleteArena.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDeleteArena.Location = new System.Drawing.Point(1034, 643);
+            this.btnDeleteArena.Location = new System.Drawing.Point(1034, 626);
             this.btnDeleteArena.Name = "btnDeleteArena";
             this.btnDeleteArena.Size = new System.Drawing.Size(203, 64);
             this.btnDeleteArena.TabIndex = 5;
@@ -113,7 +114,7 @@
             // btnReturn
             // 
             this.btnReturn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReturn.Location = new System.Drawing.Point(1034, 739);
+            this.btnReturn.Location = new System.Drawing.Point(1034, 712);
             this.btnReturn.Name = "btnReturn";
             this.btnReturn.Size = new System.Drawing.Size(203, 64);
             this.btnReturn.TabIndex = 6;
